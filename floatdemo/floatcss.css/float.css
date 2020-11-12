@@ -1,0 +1,27 @@
+.clearfix{
+    overflow: auto;
+}
+
+img{
+    float: right;
+}
+
+a :hover{
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+ul{
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
