@@ -187,3 +187,41 @@ body {
     padding-left: 51.3333px;
     width: 50%;
 }
+
+.contact-h3{
+    font-size: 19.8px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 0 19.8px 0 ;
+}
+
+.contact-p{
+    font-size: 14.6667px;
+    margin: 0 0 29.333px 0;
+    color: #22313F;
+}
+
+.introduction-icon{
+    display: flex;
+    margin-bottom: 14.6667px;
+}
+
+.icon-des{
+    padding: 0 14.6667px 0 0;
+    text-decoration: none;
+}
+
+.fa-twitter:before{
+    content: "\f099";
+    font-family: FontAwesome;
+}
+
+.fa-facebook:before{
+    content: "\f09a";
+    font-family: FontAwesome;
+}
+
+.fa-instagram:before{
+    content: "\f16d";
+    font-family: FontAwesome;
+}
