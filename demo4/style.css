@@ -80,3 +80,21 @@ body {
     color:#fff;
     text-decoration: none;
 }
+
+.action{
+    list-style: none;
+    padding-left: 0;
+    cursor: default;
+    margin: 0 0 29.333px 0
+}
+
+.button{
+    font-size: 19.8px;
+    padding: 0 39.6px;
+    box-shadow: 0 0 0 2px rgba(144, 144, 144, 0.25);
+    border-radius: 4px;
+    font-weight: 700;
+    height: 56.4129px;
+    line-height: 58.41px;
+    display: inline-block;
+}
