@@ -8,6 +8,11 @@
         <link rel="stylesheet" href="style.css" media="all">
     </head>
     <body>
+        <nav class="nav">
+            <div><a href="#" class="icon fa-home"></a></div>
+            <div><a href="#" class="icon fa-camera-retro"></a></div>
+            <div><a href="#" class="icon fa-file-text-o"></a></div>
+        </nav>
         <div class="main">
             <div class="banner">
                 <div class="banner-inner">
@@ -72,9 +77,34 @@
                     </ul>
                 </div>
                 <div class="contact-form">
-                    
+                    <div class="contact-h3">Get in Touch</div>
+                    <form action="#" method="POST">
+                        <div class="form-des form-half form-first">
+                            <label  class="label-des" for="name">Name</label>
+                            <input class="form-input" name="name" id="name" type="text" placeholder="Name">
+                        </div>
+                        <div class="form-des form-half">
+                            <label class="label-des" for="email">Email</label>
+                            <input class="form-input" name="email" id="email" type="email" placeholder="Email">
+                        </div>
+                        <div class="form-des">
+                            <label  class="label-des" for="message">Message</label>
+                            <textarea class="form-input form-textarea" name="message" id="message" rows="6" placeholder="Message"></textarea>
+                        </div>
+                        <div class="send-button">
+                            Send Message
+                        </div>
+                    </form>
                 </div>
             </div>
+            <footer class="footer">
+                <div class="copyright">
+                    © Untitled Design:
+                    <a href="#" class="copyright-link">TEMPLATED</a>
+                    . Images: 
+                    <a href="#" class="copyright-link">Unsplash</a>
+                </div>
+            </footer>
         </div>
     </body>
 </html>
