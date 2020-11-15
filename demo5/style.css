@@ -88,3 +88,90 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .nav-item:hover{
     color: #fff;
 }
+
+.wrapper-main{
+    overflow:hidden;
+    padding: 80px 0;
+    background: #fff;
+}
+
+.main-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.row{
+    /*待詢問為什麼設-50px*/
+    margin-left: -50px;
+}
+
+.main-left{
+    padding-left: 50px;
+    width: 25%;
+}
+
+.main-left-sidebar{
+    padding: 0px;
+}
+
+.main-left-header{
+    margin-bottom: 40px;
+}
+
+.left-header-logo{
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 32px;
+    color: #323338;
+}
+
+.left-style{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.left-style-first{
+    padding: 0px 0px 25px 0px;
+    border-top: none;
+}
+
+.left-style-other{
+    padding: 20px 0px 25px 0px;
+    border-top: 1px solid #E7E5DA;
+}
+
+.left-date{
+    display: inline-block;
+    margin: 0px 0px 20px 0px;
+    padding: 14px 14px;
+    background: #323338;
+    border-radius: 4px;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.left-date-a{
+    font-weight: 100;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.left-date-des{
+    margin-bottom: 24px;
+}
+
+.left-date-des-a{
+    font-size: 16px;
+    font-weight: 100;
+    display: block;
+    text-decoration: none;
+    color: #525252;
+    line-height: 180%;
+}
