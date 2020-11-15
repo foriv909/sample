@@ -1,13 +1,90 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Scope+One|Trocchi");
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
+    font-family: 'Lato', sans-serif !important;
     font: inherit;
     vertical-align: baseline;
     box-sizing: border-box;
+    line-height: 1;
 }
 
+.wrapper-header{
+    background: url(./images/banner.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 160px 0 ;
+}
+
+.header-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.header-logo{
+    margin-bottom: 48px;
+}
+
+.b-logo{
+    font-size: 64px;
+    font-weight: 900;
+    color: #323338;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+
+.s-logo{
+    display: block;
+    padding-top: 19.2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 19.2px;
+    color: #8e8588;
+    font-weight: 100;
+}
+
+.header-nav{
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item{
+    font-size: 16px;
+    font-weight: 200;
+    color: #323338;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px 24px;
+    outline: 0;
+    display: block;
+}
+
+.action-item{
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px 24px;
+    outline: 0;
+    background: #323338;
+    color: #fff;
+    border-radius: 4px;
+    display: block;
+}
+
+.nav-item:hover{
+    color: #fff;
+}
