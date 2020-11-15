@@ -23,13 +23,61 @@ body {
 .main{
     background: #f1f1f1;
     width: 100%;
+    /*為了將nav擺入,設下列右移margin*/
+    margin-left: 56.3438px;
+    box-sizing: border-box;
 }
 
 .nav{
+    position: fixed;
+    padding-top: 14.6667px;
     width: 56.3438px;
     height: 100%;
     background: #0d1217;
     z-index: 10002;
+}
+
+.nav-icon-des{
+    padding: 0;
+    width: 55px;
+    text-align: Center;
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.5)
+}
+
+.icon-container{
+    margin-bottom: 14.6667px;
+}
+.icon-home{
+    text-decoration: none;
+}
+
+.fa-home:before{
+    content: "\f015";
+    font-family: FontAwesome;
+    font-size: 22px;
+    color: #19B5FE;
+}
+
+.icon-camera-file{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.5);
+}
+
+.fa-camera-retro:before{
+    content: "\f083";
+    font-family: FontAwesome;
+    font-size: 22px;
+}
+
+.fa-file-text-o:before{
+    content: "\f0f6";
+    font-family: FontAwesome;
+    font-size: 22px;
+}
+
+.icon-camera-file:hover{
+    color: #fff;
 }
 
 .banner{
@@ -106,6 +154,9 @@ body {
     line-height: 58.41px;
     display: inline-block;
 }
+.button:hover{
+    background: rgba(144, 144, 144, 0.075);
+}
 
 .gallery{
     padding: 51.3333px;
@@ -168,6 +219,9 @@ body {
     padding: 0 39.6px;
     text-align: center;
     white-space: nowrap;
+}
+.gallery-footer-button:hover{
+    background: #019be3;
 }
 
 .contact{
