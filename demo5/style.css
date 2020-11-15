@@ -109,6 +109,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .main-left{
     padding-left: 50px;
     width: 25%;
+    display: inline-block;
 }
 
 .main-left-sidebar{
@@ -174,4 +175,33 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-decoration: none;
     color: #525252;
     line-height: 180%;
+}
+
+.main-center{
+    width: 50%;
+    padding-left: 50px;
+    display: inline-block
+}
+
+.main-center-header{
+    margin-bottom: 32px;
+}
+
+.main-center-logo{
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    
+}
+
+
+
+
+
+.main-right{
+    background-color: blueviolet;
+    height: 300px;
+    width: 25%;
+    display: inline-block
 }
