@@ -334,4 +334,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     color: #D1551F;
 }
 
+.wrapper-link-style{
+    text-decoration: none;
+    color: #525252;
+}
+
+.wrapper-link-style:hover{
+    text-decoration: underline;
+}
+
+.main-center-button:hover{
+    background: #1f2023;
+}
 
