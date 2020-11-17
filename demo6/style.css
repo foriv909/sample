@@ -5,11 +5,55 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    font-family: 'Lato', sans-serif !important;
-    font: inherit;
+    font-family: 'Questrial', sans-serif;
     vertical-align: baseline;
     box-sizing: border-box;
     line-height: 1;
+    color: rgba(0,0,0,.6);
+}
+.header-a{
+    text-decoration: none;
+    color: #FFF;
 }
 
+
+.wrapper-header{
+    overflow: hidden;
+    padding: 32px 0px;
+    background: #2F1E28;
+}
+.header{
+    text-align: center;
+    margin: 0px auto;
+    width: 1200px;
+}
+
+.header-logo{
+    display: inline-block;
+    margin-bottom: 11.2px;
+    padding: 11.2px 50.4px;
+    font-size: 56px;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center;
+    padding: 9.36px 10.8px;
+    text-align: center;
+}
+
+.active{
+    background: #912D56;
+    border-radius: 50%;
+}
+
+.menu-item{
+    display: inline-block;
+    padding: 18.72px 10.8px;
+    text-decoration: none;
+    font-size: 14.4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: 0;
+    color: #FFF;
+}
