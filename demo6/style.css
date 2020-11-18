@@ -13,6 +13,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 .header-a{
     text-decoration: none;
+    font-weight: 600;
     color: #FFF;
 }
 
@@ -22,13 +23,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 32px 0px;
     background: #2F1E28;
 }
-.header{
+.header-container{
     text-align: center;
     margin: 0px auto;
     width: 1200px;
 }
 
-.header-logo{
+.header-blogo{
     display: inline-block;
     margin-bottom: 11.2px;
     padding: 11.2px 50.4px;
@@ -38,22 +39,78 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .menu-items{
     display: flex;
     justify-content: center;
-    padding: 9.36px 10.8px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding: 0px 32px;
     text-align: center;
 }
 
+.inline-block{
+    display: inline-block;
+}
+
 .active{
+    display: inline-block;
+    text-decoration: none;
+    padding: 18.72px 21.6px;
+    font-size: 14.4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: 0;
+    color: #FFF;
     background: #912D56;
     border-radius: 50%;
 }
 
 .menu-item{
     display: inline-block;
-    padding: 18.72px 10.8px;
     text-decoration: none;
+    padding: 18.72px 21.6px;
     font-size: 14.4px;
     font-weight: 600;
     text-transform: uppercase;
     outline: 0;
     color: #FFF;
+}
+
+.wrapper-page{
+    overflow: hidden;
+    background: #2F1E28;
+    padding: 48px 0 96px 0;
+    text-align: center;
+}
+
+.welocome-container{
+    overflow: hidden;
+    width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+    color: #7D6774;
+}
+
+.welcome-title-container{
+    margin-bottom: 48px;
+}
+
+.welcome-style{
+    font-size: 44.8px;
+    color: #C6C2C4;
+}
+
+.welcome-des-style{
+    font-size: 16px;
+    line-height:28.8px;
+    color: #7D6774;
+}
+
+strong{
+    color: #C6C2C4;
+    font-weight: bold;
+}
+
+.welcome-des-a{
+    color: #C6C2C4;
+}
+.welcome-des-a:hover{
+    text-decoration: none;
 }
