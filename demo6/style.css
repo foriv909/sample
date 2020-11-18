@@ -124,9 +124,9 @@ strong{
 
 .wrapper-column-container{
     display: flex;
+    margin: 0 auto;
     overflow: hidden;
     text-align: center;
-    margin: 0px auto;
     width: 1200px;
 }
 
@@ -175,4 +175,45 @@ strong{
 .column-button-a{
     color: #FFF;
     text-decoration: none;
+}
+
+.portfolio-container{
+    display: flex;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    width: 1200px;
+}
+
+.portfolio-second-style{
+    margin-right: 24px;
+    width: 282px;
+}
+
+.portfolio-box{
+    text-align: center;
+}
+
+.portfolio-img-container{
+    display: block;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.img-style{
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.portfolio-name{
+    display: block;
+    padding-bottom: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(0,0,0,0.6);
+}
+
+.portfolio-des{
+    font-size: 16px;
+    line-height: 28.8px;
+    margin-bottom: 16px;
 }
