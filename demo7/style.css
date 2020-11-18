@@ -6,10 +6,90 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: 'Lato', sans-serif !important;
+    font-family: 'Questrial', sans-serif;
     font: inherit;
     vertical-align: baseline;
     box-sizing: border-box;
     line-height: 1;
 }
 
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #E4C65D;
+    font-family: 'Questrial', sans-serif;
+    font-size: 12pt;
+    color: rgba(0,0,0,.6);
+}
+
+.wrapper-header-container{
+    overflow: hidden;
+    padding: 32px 0px;
+    background: #FFF;
+}
+
+.wrapper-header-navbar{
+    position: relative;
+}
+
+.container{
+    margin: 0px auto;
+    width: 1200px;
+}
+
+.navbar-logo-des{
+    display: inline-block;
+    margin-bottom: 11.2px;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Questrial', sans-serif;
+}
+
+.navbar-logo-a{
+    text-decoration: none;
+    color: #F67C78;
+}
+
+.navbar-menu{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: 1px solid rgba(0,0,0,.2);
+}
+
+.navbar-menu-container{
+    display: flex;
+    padding: 16px 32px 0px 32px;
+}
+
+.navbar-action{
+    background: #F67C78;
+    color: #FFF;
+    display: inline-block;
+    padding: 18.72px 21.6px;
+    text-decoration: none;
+    font-size: 14.4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: 0;
+}
+
+.navbar-other{
+    display: inline-block;
+    padding: 18.72px 21.6px;
+    text-decoration: none;
+    font-size: 14.4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: 0;
+    color: #E85D4B;
+}
+
+.wrapper-header-picture{
+    padding: 48px 0 ;
+}
+img{
+    width: 1200px;
+    height: 400px;
+}
