@@ -82,7 +82,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .welocome-container{
     overflow: hidden;
-    width: 1000px;
+    width: 1200px;
+    padding: 32px 100px 0 100px;
     margin: 0px auto;
     text-align: center;
     color: #7D6774;
@@ -112,5 +113,66 @@ strong{
     color: #C6C2C4;
 }
 .welcome-des-a:hover{
+    text-decoration: none;
+}
+
+.wrapper-container{
+    overflow: hidden;
+    padding: 0px 0px 80px 0px;
+    background: #FFF;
+}
+
+.wrapper-column-container{
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto;
+    width: 1200px;
+}
+
+.column-first-style{
+    width: 320px;
+    padding: 80px 40px 80px 40px;
+    box-sizing: content-box;
+}
+
+.column-title-container{
+    text-align: center;
+    margin-bottom: 48px;
+
+}
+
+.column-title-style{
+    font-size: 25.6px;
+    font-weight: 700;
+    color: #404040;
+}
+
+.column-des-container{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.column-des-style{
+    font-size: 16px;
+    line-height: 28.8px;
+    color: rgba(0,0,0,.6);
+}
+
+.column-button{
+    display: inline-block;
+    margin-top: 32px;
+    padding: 12.8px 32px;
+    background: #2D1E25;
+    border-radius: 50%;
+    line-height: 28.8px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFF;
+}
+
+.column-button-a{
+    color: #FFF;
     text-decoration: none;
 }
