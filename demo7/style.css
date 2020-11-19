@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-family: 'Questrial', sans-serif;
     font: inherit;
     vertical-align: baseline;
-    box-sizing: border-box;
+    box-sizing: content-box;
     line-height: 1;
 }
 
@@ -56,6 +56,7 @@ body {
     right: 0;
     top: 0;
     border-left: 1px solid rgba(0,0,0,.2);
+    height: 84.4375px;
 }
 
 .navbar-menu-container{
@@ -93,3 +94,116 @@ img{
     width: 1200px;
     height: 400px;
 }
+
+.first-wrapper{
+    overflow: hidden;
+    background: #F3F3F3;
+    padding: 80px 0px;
+}
+
+.first-wrapper-container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.first-wrapper-main{
+    display: inline-block;
+    width: 700px;
+    padding-right: 100px;
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.main-title{
+    margin-bottom: 48px;
+}
+
+.main-title-des{
+    font-size: 25.6px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+
+.main-des{
+    font-size: 16px;
+    line-height: 28.8px;
+    margin-bottom: 16px;
+    color: rgba(0,0,0,.6);
+}
+
+.main-column{
+    padding-top: 48px;
+}
+
+.main-column-one{
+    display:inline-block;
+    width: 320px;
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+.main-column-two{
+    display: inline-block;
+    width: 300px;
+}
+
+.column-one-container{
+    margin: 0;
+    padding: 0;
+}
+
+.column-one-a{
+    padding-top: 9.6px;
+}
+
+.column-one-a-des{
+    text-decoration: none;
+    color: #888787; 
+}
+
+.main-column-two{
+    float: right;
+    width: 350x;
+}
+
+.button-a{
+    display: inline-block;
+    margin-top: 32px;
+    padding: 12.8px 32px;
+    background: #E85D4B;
+    line-height: 28.8px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFF;
+}
+
+.first-wrapper-sidebar{
+    float:right;
+    width: 350px;
+}
+
+.first-sidebar-title{
+    margin-bottom: 48px;
+}
+
+.sidebar-title-des{
+    font-size: 25.6px;
+    color: #404040;
+}
+
+.first-sidebar-des{
+    margin-top: 48px;
+}
+
+.sidebar-des-one{
+    padding-bottom: 9.6px;
+    font-size: 18.82px;
+    color: #404040;
+}
+
+.sidebar-des-two{
+    font-size: 16px;
+    line-height: 28.8px;
+    margin-bottom: 16px;
+}
+
