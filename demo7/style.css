@@ -211,6 +211,10 @@ img{
     clear: both;
 }
 
+.hover:hover{
+    text-decoration: underline;
+}
+
 .second-wrapper{
     overflow: hidden;
     padding: 80px 0px 80px 0px;
@@ -283,5 +287,149 @@ img{
 .second-button-three-a{
     background: #809944;
 }
+
+.third-wrapper{
+    overflow: hidden;
+    background: #F3F3F3;
+    padding: 80px 0px;
+}
+
+.third-wrapper-container{
+    margin: 0px auto;
+    width: 1200px;
+}
+
+.third-title{
+    margin-bottom: 48px;
+}
+
+.third-title-des{
+    font-size: 44.8px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+
+.third-content{
+    margin-bottom: 16px;
+}
+
+.third-content-des{
+    line-height: 28.8px;
+    color: rgba(0,0,0,.6);
+}
+
+.third-content-des-a{
+    color: #E85D4B;
+}
+
+.third-content-des-a:hover{
+    text-decoration: none;
+}
+
+.footer-container{
+    overflow: hidden;
+    padding: 80px 0px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.footer-content{
+    margin-bottom: 14.4px;
+}
+
+.footer-content-des{
+    letter-spacing: 1px;
+    font-size: 0.90em;
+    color: rgba(255,255,255,0.6);
+}
+
+.footer-content-des-a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+}
+
+.footer-contact-container{
+    list-style: none;
+    margin: 0;
+    padding: 2em 0em 0em 0em;
+}
+
+.icon-items{
+    display: inline-block;
+    padding: 0 1.6px;
+    font-size: 16px;
+}
+
+.fa-twitter:before{
+    content: "\f099";
+    display: inline-block;
+    background: #E2AD1C;
+    font-size: 23px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.fa-facebook:before{
+    content: "\f09a";
+    display: inline-block;
+    background: #E2AD1C;
+    font-size: 23px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.fa-dribbble:before{
+    content: "\f17d";
+    display: inline-block;
+    background: #E2AD1C;
+    font-size: 23px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.fa-tumblr:before{
+    content: "\f173";
+    display: inline-block;
+    background: #E2AD1C;
+    font-size: 23px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.fa-rss:before{
+    content: "\f09e";
+    display: inline-block;
+    background: #E2AD1C;
+    font-size: 23px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+
+
 
 
