@@ -1,0 +1,73 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Scope+One|Trocchi");
+
+html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: content-box;
+    line-height: 1;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #080808 url(images/main-bg.png) repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #2B2B2B;
+}
+
+.header{
+    overflow: hidden;
+    width: 900px;
+    height: 150px;
+    padding: 0px 50px;
+}
+
+.container{
+    margin: 0px auto;
+}
+
+.logo{
+    display: inline-block;
+    width: 300px;
+    line-height: 150px;
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 33.8px;
+}
+.logo-link{
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu{
+    display: inline-block;
+    width: 600px;
+    height: 99px;
+    padding: 60px 0 0 0;
+}
+
+.menu-item{
+    color: #B6B6B6;
+}
+
+.item-link{
+    display: inline-block;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 14.3px;
+    font-weight: 600;
+    color: #B6B6B6;
+}
+
+
