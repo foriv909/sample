@@ -23,7 +23,7 @@ body{
 }
 
 .header{
-    overflow: hidden;
+    display: flex;
     width: 900px;
     height: 150px;
     padding: 0px 50px;
@@ -34,7 +34,7 @@ body{
 }
 
 .logo{
-    display: inline-block;
+    display:block;
     width: 300px;
     line-height: 150px;
     text-transform: uppercase;
@@ -48,7 +48,8 @@ body{
 }
 
 .menu{
-    display: inline-block;
+    display:flex;
+    justify-content: flex-end;
     width: 600px;
     height: 99px;
     padding: 60px 0 0 0;
@@ -59,15 +60,50 @@ body{
 }
 
 .item-link{
-    display: inline-block;
+    display: block;
     padding: 10px 15px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Archivo Narrow', sans-serif;
-    font-size: 14.3px;
-    font-weight: 600;
+    font-size: 13.3px;
+    font-weight: 700;
     color: #B6B6B6;
+    
+}
+
+.menu-item{
+    margin-left: 26px;
+}
+
+.active{
+    background: #0091E6;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.item-link:hover{
+    text-decoration: underline;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    padding: 70px 50px 50px 50px;
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.main-content{
+    width: 580px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.main-sidebar{
+    width: 260px;
+    height: 200px;
+    background-color: orange;
 }
 
 
