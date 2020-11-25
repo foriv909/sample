@@ -94,16 +94,33 @@ body{
     border-radius: 10px 10px 0px 0px;
 }
 
+.main-sidebar{
+    width: 260px;
+    padding-top: 10px;
+}
+
+.sbox1{
+    margin-bottom: 40px;
+}
+
+.sbox1-title{
+    margin-bottom: 30px;
+}
+
+.sbox1-p1{
+    line-height: 23.4px;
+    margin-bottom: 13px;
+}
+
+
+
+
 .main-content{
     width: 580px;
     height: 200px;
     background-color: yellow;
 }
 
-.main-sidebar{
-    width: 260px;
-    height: 200px;
-    background-color: orange;
-}
+
 
 
