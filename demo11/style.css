@@ -106,6 +106,8 @@ body{
 }
 
 .sbox-title{
+    height: 27px;
+    line-height: 27px;
     margin-bottom: 30px;
     color: #2B2B2B;
     font-size: 19.5px;
@@ -204,6 +206,8 @@ body{
 }
 
 .sbox3-item-link{
+    height: 18px;
+    line-height: 18px;
     color: #2B2B2B;
 }
 
@@ -228,6 +232,7 @@ body{
 }
 
 .main-title{
+    letter-spacing: -1px;
     height: 53px;
     line-height: 53px;
     font-size: 39px;
@@ -251,7 +256,7 @@ body{
 }
 
 .s-box-content{
-
+ margin-bottom: 60px;
 }
 
 .s-box-header{
@@ -259,18 +264,89 @@ body{
 }
 
 .s-box-img1{
-    height: 35px;
+    height: 52.1px;
     width: 40px;
+    padding-bottom: 22.1px;
     background: url(images/icon01.png) no-repeat left top;
 }
 
 .s-box-img2{
-    height: 29px;
+    height: 52.1px;
     width: 40px;
+    padding-bottom: 22.1px;
     background: url(images/icon02.png) no-repeat left top;
 }
 
 .s-box-title{
-
+    margin-bottom: 30px;
+    padding-bottom: 22.1px;
+    padding-left: 20px;
+    letter-spacing: -1px;
+    font-size: 22.1px;
+    font-weight: 600;
+    color: #333333;
 }
 
+.s-box-p{
+    margin-bottom: 13px;
+    padding-left: 60px;
+    line-height: 180%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 6px solid #000000;
+    width: 900px;
+    padding: 70px 50px 50px 50px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #161616;
+}
+
+.fbox{
+    width: 260px;
+}
+
+.fbox-title{
+    font-weight: 400;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    color: #D3D3D3;
+}
+
+.fbox-item{
+    padding: 10px 0 20px 0;
+    border-top: 1px solid #242424;
+}
+
+.fbox-item-link{
+    color: #4E4E4E;
+}
+
+.fbox-p{
+    color: #4E4E4E;
+    line-height: 180%;
+    margin-bottom: 13px;
+}
+
+.contact{
+    padding-top: 30px;
+    display: flex;
+}
+
+.contact-link{
+    margin-right: 10px;
+}
+
+.copyright{
+    width: 900px;
+    padding: 50px;
+}
+
+.copyright-p{
+    text-align: center;
+}
+
+.copyright-link{
+    color: #4E4E4E;
+}
